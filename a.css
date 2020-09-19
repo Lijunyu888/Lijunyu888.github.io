@@ -1,0 +1,64 @@
+/*基本信息*/
+body {
+	font: 24px Tahoma;
+	margin: 0px;
+	text-align: center;
+	background: #FFFFFFFF;}
+body, td, th {
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 24px;
+	color: #FF70DB93;
+}
+a {color: #698B22;	text-decoration: none;} /*二级菜单的颜色*/
+a:hover {color: #FF0000;text-decoration: none;} /*鼠标经过时的颜色*/
+a:active{color: #8A2BE2;text-decoration: none;} /*点击后的颜色*/
+
+　　/*页面层容器*/
+#container {width:auto;margin:0 auto}
+　　/*页面头部*/
+#Header {width:800px;margin:0 auto;height:800px;background:#EFCC99}
+　　/*页面主体*/
+#PageBody {width:800px;margin:0 auto;height:600px;background:#FFFFFFFF}
+   /*侧边栏*/
+#Sidebar{float:left;width:220px;margin:0 auto;height:600px;background:#CCFF00}
+   /*主体内容*/
+#MainBody{width:980px;margin:0 auto;height:468px;background:#FFBB00}
+　　/*页面底部*/
+#Footer {width:800px;margin: auto;height:40px;background:#00FFFF}
+
+#menu {
+	height: 32px;
+	margin-top: 0px;
+	background: #FF000000;
+}
+	#menu ul {
+		margin: auto;
+		width: 900px;
+		height: 32px;
+		background: #FF000000; /*菜单背景色*/
+		list-style-type: none;
+		padding: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+.m_li{
+	float:left; width:160px; line-height:32px;  text-align:center; margin-right:-2px; margin-left:-2px;
+}
+.m_li a{display:block; color:#68228B; width:160px;}/*主菜单文字颜色*/
+.m_line{float:left; width:1px; height:32px;
+  line-height:32px; /*ff下有效(图片垂直居中)*/}
+.m_line img{
+	margin-top:expression((32 - this.height )/2);/*ie下有效(图片垂直居中)*/
+}
+.m_li_a{
+	float:left; width:160px; line-height:32px; text-align:center; padding-top:3px; font-weight:bold;
+	background-image:url(../data/menu_bg.jpg); position:relative; height:32px; margin-top:-3px; margin-right:-2px; margin-left:-2px;
+}
+.m_li_a a{display:block; color:#FF0000; width:160px;}
+
+.smenu{
+	width:774px; margin:0px auto 0px auto; padding:0px; list-style-type:none; height:32px;
+}
+.s_li{line-height:32px; width:auto; display:none; height:32px;}
+.s_li_a{line-height:32px; width:auto; display:block; height:32px;}
+
