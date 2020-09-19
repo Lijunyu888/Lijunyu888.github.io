@@ -1,24 +1,24 @@
 <html>
 <head>
-    
-    <title>Òø¿­±ö¹İ</title>
+    <br>
+    <title>é“¶å‡¯å®¾é¦†</title>
     <LINK REL=stylesheet HREF="a.css" TYPE="text/css">
     <script>
-        //³õÊ¼»¯
+        //åˆå§‹åŒ–
         var def="1";
         function mover(object){
-        //Ö÷²Ëµ¥
+        //ä¸»èœå•
         var mm=document.getElementById("m_"+object);
         mm.className="m_li_a";
-        //³õÊ¼Ö÷²Ëµ¥Òş²ØĞ§¹û
+        //åˆå§‹ä¸»èœå•éšè—æ•ˆæœ
         if(def!=0){
         var mdef=document.getElementById("m_"+def);
         mdef.className="m_li";
         }
-        //×Ó²Ëµ¥
+        //å­èœå•
         var ss=document.getElementById("s_"+object);
         ss.style.display="block";
-        //³õÊ¼×Ó²Ëµ¥Òş²ØĞ§¹û
+        //åˆå§‹å­èœå•éšè—æ•ˆæœ
         if(def!=0){
         var sdef=document.getElementById("s_"+def);
         sdef.style.display="none";
@@ -26,18 +26,18 @@
         }
 
         function mout(object){
-        //Ö÷²Ëµ¥
+        //ä¸»èœå•
         var mm=document.getElementById("m_"+object);
         mm.className="m_li";
-        //³õÊ¼Ö÷²Ëµ¥
+        //åˆå§‹ä¸»èœå•
         if(def!=0){
         var mdef=document.getElementById("m_"+def);
         mdef.className="m_li_a";
         }
-        //×Ó²Ëµ¥
+        //å­èœå•
         var ss=document.getElementById("s_"+object);
         ss.style.display="none";
-        //³õÊ¼×Ó²Ëµ¥
+        //åˆå§‹å­èœå•
         if(def!=0){
         var sdef=document.getElementById("s_"+def);
         sdef.style.display="block";
@@ -46,38 +46,38 @@
     </script>
 </head>
 <body>
-<div id="container"><!--Ò³Ãæ²ãÈİÆ÷-->
-<div id="Header"><!--Ò³ÃæÍ·²¿--> 
+<div id="container"><!--é¡µé¢å±‚å®¹å™¨-->
+<div id="Header"><!--é¡µé¢å¤´éƒ¨--> 
  <div id="menu">
   <ul>
     <li class="m"></li>
-    <li id="m_1" class='m_li_a'><a href="#">Ê×Ò³</a></li>
+    <li id="m_1" class='m_li_a'><a href="#">é¦–é¡µ</a></li>
     <li class="m_line"></li>
-    <li id="m_2" class='m_li' onmouseover='mover(2);' onmouseout='mout(2);'><a href="#">ÈÈÃÅ¾°µã</a></li>
+    <li id="m_2" class='m_li' onmouseover='mover(2);' onmouseout='mout(2);'><a href="#">çƒ­é—¨æ™¯ç‚¹</a></li>
     <li class="m_line"></li>
-    <li id="m_3" class='m_li' onmouseover='mover(3);' onmouseout='mout(3);'><a href="#">½üÆÚĞÂÎÅ</a></li>
+    <li id="m_3" class='m_li' onmouseover='mover(3);' onmouseout='mout(3);'><a href="#">è¿‘æœŸæ–°é—»</a></li>
     <li class="m_line"></li>
-    <li id="m_4" class='m_li' onmouseover='mover(4);' onmouseout='mout(4);'><a href="#">¿Í·¿Ô¤¶©</a></li>
+    <li id="m_4" class='m_li' onmouseover='mover(4);' onmouseout='mout(4);'><a href="#">å®¢æˆ¿é¢„è®¢</a></li>
     <li class="m_line"></li>
-    <li id="m_5" class='m_li' onmouseover='mover(5);' onmouseout='mout(5);'><a href="#">ÁªÏµÎÒÃÇ</a></li>
+    <li id="m_5" class='m_li' onmouseover='mover(5);' onmouseout='mout(5);'><a href="#">è”ç³»æˆ‘ä»¬</a></li>
     <li class="m_line"></li>
  </ul>
 
 </div>
 <div style="height:32px; background-color:#F1F1F1;">
    <ul class="smenu">
-     <li  id="s_1" class='s_li_a'><marquee>±¾Õ¾»¶Ó­ÄúµÄ·ÃÎÊ£¡</marquee></li>
+     <li  id="s_1" class='s_li_a'><marquee>æœ¬ç«™æ¬¢è¿æ‚¨çš„è®¿é—®ï¼</marquee></li>
    </ul>
  	
 
 </div>
-¡¡¡¡¡¡¡¡<div id="MainBody"><!--Ö÷ÌåÄÚÈİ-->
+ã€€ã€€ã€€ã€€<div id="MainBody"><!--ä¸»ä½“å†…å®¹-->
   <iframe id="ifrm2" name="ifrm2" width=980px height="100%" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1600547040913&di=da934705f52ea4bf27189cfe1f446da9&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20180714%2F6a44f4ceee1a477782e26b4256c25e0b.jpeg"></iframe> 
 </div>
-¡¡¡¡   </div>
-¡¡¡¡   </div>
-¡¡¡¡   <div id="Footer"><!--Ò³Ãæµ×²¿-->
-¡¡¡¡   </div>
+ã€€ã€€   </div>
+ã€€ã€€   </div>
+ã€€ã€€   <div id="Footer"><!--é¡µé¢åº•éƒ¨-->
+ã€€ã€€   </div>
 </div>
 </body>
 </html>
