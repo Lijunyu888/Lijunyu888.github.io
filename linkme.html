@@ -1,0 +1,89 @@
+﻿<html>
+<head>
+
+    <title>银凯宾馆</title>
+    <LINK REL=stylesheet HREF="a.css" TYPE="text/css">
+    <script>
+        //初始化
+        var def="1";
+        function mover(object){
+        //主菜单
+        var mm=document.getElementById("m_"+object);
+        mm.className="m_li_a";
+        //初始主菜单隐藏效果
+        if(def!=0){
+        var mdef=document.getElementById("m_"+def);
+        mdef.className="m_li";
+        }
+        //子菜单
+        var ss=document.getElementById("s_"+object);
+        ss.style.display="block";
+        //初始子菜单隐藏效果
+        if(def!=0){
+        var sdef=document.getElementById("s_"+def);
+        sdef.style.display="none";
+        }
+        }
+
+        function mout(object){
+        //主菜单
+        var mm=document.getElementById("m_"+object);
+        mm.className="m_li";
+        //初始主菜单
+        if(def!=0){
+        var mdef=document.getElementById("m_"+def);
+        mdef.className="m_li_a";
+        }
+        //子菜单
+        var ss=document.getElementById("s_"+object);
+        ss.style.display="none";
+        //初始子菜单
+        if(def!=0){
+        var sdef=document.getElementById("s_"+def);
+        sdef.style.display="block";
+        }
+        }
+    </script>
+</head>
+<body>
+    <div id="container">
+        <!--页面层容器-->
+        <div id="Header">
+            <!--页面头部-->
+            <div id="menu">
+                <ul>
+                    <li class="m"></li>
+                    <li id="m_1" class='m_li_a'><a href="index.html">首页</a></li>
+                    <li class="m_line"></li>
+                    <li id="m_2" class='m_li' onmouseover='mover(2);' onmouseout='mout(2);'><a href="linkme.html">酒店简介</a></li>
+                    <li class="m_line"></li>
+                    <li id="m_3" class='m_li' onmouseover='mover(3);' onmouseout='mout(3);'><a href="book.html">客房预订</a></li>
+                    <li class="m_line"></li>
+                    <li id="m_4" class='m_li' onmouseover='mover(4);' onmouseout='mout(4);'><a href="sight.html">周边景点</a></li>
+                    <li class="m_line"></li>
+                    <li id="m_5" class='m_li' onmouseover='mover(5);' onmouseout='mout(5);'><a href="daohang.html">导航</a></li>
+                    <li class="m_line"></li>
+                </ul>
+
+            </div>
+            <div style="height:32px; background-color:#F1F1F1;">
+                <ul class="smenu">
+                    <li id="s_1" class='s_li_a'><marquee>本站欢迎您的访问！</marquee></li>
+                </ul>
+
+
+            </div>
+            <div id="MainBody">
+                <!--主体内容-->
+
+                <iframe id="ifrm2" name="ifrm2" width=1280px height="100%" src="https://i.loli.net/2020/09/20/AhTtCO3luKZ742y.jpg"></iframe>
+              
+            </div>
+        </div>
+    </div>
+    <div id="Footer">
+        <!--页面底部-->
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>图片左右切换滑动</title>
+    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        var cot=0;
+        function nex(){
+        if(cot<2){
+        $('.imgs img').eq(cot).animate({'margin-left':'-1285px'},640);
+        cot++;
+        }
+        }
+        function pre(){
+        if(cot>0){
+        cot--;
+        $('.imgs img').eq(cot).animate({'margin-left':'0'},640);
+        }
+        }
+    </script>
+</head>
+<body>
+    <div style="width:1280px;margin:auto;overflow:hidden">
+       
+        <div class="imgs" style="width:500000px;">
+            <img src="https://i.loli.net/2020/09/20/hEicnkgu24RWK8e.jpg" />
+            <img src="https://i.loli.net/2020/09/20/k2pUs9VDrfuJFCO.jpg" />
+            <img src="https://i.loli.net/2020/09/20/YdvH4MxwT2aetS1.jpg" />
+            <img src="https://i.loli.net/2020/09/20/WqTAtcOypwXzGv7.jpg" />
+            <img src="https://i.loli.net/2020/09/20/LMS51NHzYxnDIfm.jpg" />
+        </div>
+        <div>
+            <div onclick="pre()" style="float:left;cursor:pointer">上一页</div>
+            <div onclick="nex()" style="float:right;cursor:pointer">下一页</div>
+        </div>
+    </div>
+</body>
+</html>
