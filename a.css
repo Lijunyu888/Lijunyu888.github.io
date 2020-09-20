@@ -1,4 +1,4 @@
-/*»ù±¾ĞÅÏ¢*/
+
 body {
 	font: 24px Tahoma;
 	margin: 0px;
@@ -9,26 +9,26 @@ body, td, th {
 	font-size: 24px;
 	color: #FF70DB93;
 }
-a {color: #698B22;	text-decoration: none;} /*¶ş¼¶²Ëµ¥µÄÑÕÉ«*/
-a:hover {color: #FF0000;text-decoration: none;} /*Êó±ê¾­¹ıÊ±µÄÑÕÉ«*/
-a:active{color: #8A2BE2;text-decoration: none;} /*µã»÷ºóµÄÑÕÉ«*/
+a {color: #698B22;	text-decoration: none;} /*äºŒçº§èœå•çš„é¢œè‰²*/
+a:hover {color: #FF0000;text-decoration: none;} /*é¼ æ ‡ç»è¿‡æ—¶çš„é¢œè‰²*/
+a:active{color: #8A2BE2;text-decoration: none;} /*ç‚¹å‡»åçš„é¢œè‰²*/
 
-¡¡¡¡/*Ò³Ãæ²ãÈİÆ÷*/
+ã€€ã€€/*é¡µé¢å±‚å®¹å™¨*/
 #container {width:auto;margin:0 auto}
-¡¡¡¡/*Ò³ÃæÍ·²¿*/
+ã€€ã€€/*é¡µé¢å¤´éƒ¨*/
 #Header {width:800px;margin:0 auto;height:800px;background:#EFCC99}
-¡¡¡¡/*Ò³ÃæÖ÷Ìå*/
+ã€€ã€€/*é¡µé¢ä¸»ä½“*/
 #PageBody {width:800px;margin:0 auto;height:600px;background:#FFFFFFFF}
-   /*²à±ßÀ¸*/
+   /*ä¾§è¾¹æ */
 #Sidebar{float:left;width:220px;margin:0 auto;height:600px;background:#CCFF00}
-   /*Ö÷ÌåÄÚÈİ*/
+   /*ä¸»ä½“å†…å®¹*/
 #MainBody {
 	width: 1280px;
 	margin: 0 auto;
 	height: 640px;
 	background: #FFFFFFFF
 }
-¡¡¡¡/*Ò³Ãæµ×²¿*/
+ã€€ã€€/*é¡µé¢åº•éƒ¨*/
 #Footer {width:800px;margin: auto;height:40px;background:#00FFFF}
 
 #menu {
@@ -40,7 +40,7 @@ a:active{color: #8A2BE2;text-decoration: none;} /*µã»÷ºóµÄÑÕÉ«*/
 		margin: auto;
 		width: 900px;
 		height: 32px;
-		background: #FF000000; /*²Ëµ¥±³¾°É«*/
+		background: #FF000000; /*èœå•èƒŒæ™¯è‰²*/
 		list-style-type: none;
 		padding: 0px;
 		margin-top: 0px;
@@ -49,7 +49,7 @@ a:active{color: #8A2BE2;text-decoration: none;} /*µã»÷ºóµÄÑÕÉ«*/
 .m_li{
 	float:left; width:160px; line-height:32px;  text-align:center; margin-right:-2px; margin-left:-2px;
 }
-.m_li a{display:block; color:#68228B; width:160px;}/*Ö÷²Ëµ¥ÎÄ×ÖÑÕÉ«*/
+.m_li a{display:block; color:#68228B; width:160px;}/*ä¸»èœå•æ–‡å­—é¢œè‰²*/
 .m_line{float:left; width:1px; height:32px;
   line-height:32px; }
 .m_line img{
