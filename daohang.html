@@ -1,24 +1,24 @@
-﻿<html>
+<!DOCTYPE html>
+<html>
 <head>
-
+    <meta name="baidu-site-verification" content="code-NDpiaLNzHP" />
+    <meta name="descirtion" content="银凯宾馆">
+    <meta name="keywords" content="银凯">
+    <meta name="keywords" content="宾馆">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title>银凯宾馆</title>
     <LINK REL=stylesheet HREF="a.css" TYPE="text/css">
     <script>
-        //初始化
         var def="1";
         function mover(object){
-        //主菜单
         var mm=document.getElementById("m_"+object);
-        mm.className="m_li_a";
-        //初始主菜单隐藏效果
+        mm.className="m_li_a"; 
         if(def!=0){
         var mdef=document.getElementById("m_"+def);
         mdef.className="m_li";
         }
-        //子菜单
         var ss=document.getElementById("s_"+object);
-        ss.style.display="block";
-        //初始子菜单隐藏效果
+        ss.style.display="block";        
         if(def!=0){
         var sdef=document.getElementById("s_"+def);
         sdef.style.display="none";
@@ -26,18 +26,14 @@
         }
 
         function mout(object){
-        //主菜单
         var mm=document.getElementById("m_"+object);
         mm.className="m_li";
-        //初始主菜单
         if(def!=0){
         var mdef=document.getElementById("m_"+def);
         mdef.className="m_li_a";
-        }
-        //子菜单
+        }       
         var ss=document.getElementById("s_"+object);
-        ss.style.display="none";
-        //初始子菜单
+        ss.style.display="none";        
         if(def!=0){
         var sdef=document.getElementById("s_"+def);
         sdef.style.display="block";
@@ -47,10 +43,8 @@
 </head>
 <body>
     <div id="container">
-        <!--页面层容器-->
         <div id="Header">
-            <!--页面头部-->
-            <div id="menu">
+                     <div id="menu">
                 <ul>
                     <li class="m"></li>
                     <li id="m_1" class='m_li_a'><a href="index.html">首页</a></li>
@@ -73,15 +67,13 @@
 
 
             </div>
-            <div id="MainBody">
-                <!--主体内容-->
+            <div id="MainBody">               
                 <iframe id="ifrm2" name="ifrm2" width=697px height=550px src="map.html"></iframe>
                 
             </div>
         </div>
     </div>
-    <div id="Footer">
-        <!--页面底部-->
+    <div id="Footer">  
     </div>
     </div>
 </body>
