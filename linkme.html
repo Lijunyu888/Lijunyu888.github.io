@@ -1,44 +1,39 @@
-﻿<html>
+<!DOCTYPE html>
+<html>
 <head>
-
+    <meta name="baidu-site-verification" content="code-NDpiaLNzHP" />
+    <meta name="descirtion" content="银凯宾馆">
+    <meta name="keywords" content="银凯">
+    <meta name="keywords" content="宾馆">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title>银凯宾馆</title>
     <LINK REL=stylesheet HREF="a.css" TYPE="text/css">
     <script>
-        //初始化
-        var def="1";
+          var def="1";
         function mover(object){
-        //主菜单
-        var mm=document.getElementById("m_"+object);
+            var mm=document.getElementById("m_"+object);
         mm.className="m_li_a";
-        //初始主菜单隐藏效果
-        if(def!=0){
+            if(def!=0){
         var mdef=document.getElementById("m_"+def);
         mdef.className="m_li";
         }
-        //子菜单
-        var ss=document.getElementById("s_"+object);
+             var ss=document.getElementById("s_"+object);
         ss.style.display="block";
-        //初始子菜单隐藏效果
-        if(def!=0){
+             if(def!=0){
         var sdef=document.getElementById("s_"+def);
         sdef.style.display="none";
         }
         }
-
         function mout(object){
-        //主菜单
         var mm=document.getElementById("m_"+object);
         mm.className="m_li";
-        //初始主菜单
-        if(def!=0){
+              if(def!=0){
         var mdef=document.getElementById("m_"+def);
         mdef.className="m_li_a";
         }
-        //子菜单
-        var ss=document.getElementById("s_"+object);
+               var ss=document.getElementById("s_"+object);
         ss.style.display="none";
-        //初始子菜单
-        if(def!=0){
+                if(def!=0){
         var sdef=document.getElementById("s_"+def);
         sdef.style.display="block";
         }
@@ -47,9 +42,7 @@
 </head>
 <body>
     <div id="container">
-        <!--页面层容器-->
-        <div id="Header">
-            <!--页面头部-->
+        <div id="Header">           
             <div id="menu">
                 <ul>
                     <li class="m"></li>
@@ -74,15 +67,12 @@
 
             </div>
             <div id="MainBody">
-                <!--主体内容-->
-
                 <iframe id="ifrm2" name="ifrm2" width=1280px height="100%" src="https://i.loli.net/2020/09/20/AhTtCO3luKZ742y.jpg"></iframe>
               
             </div>
         </div>
     </div>
-    <div id="Footer">
-        <!--页面底部-->
+    <div id="Footer">     
     </div>
     </div>
 </body>
